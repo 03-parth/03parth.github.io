@@ -1,0 +1,80 @@
+/* CSS code goes here */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5F5F5;
+  }
+  
+  header {
+    background-color: #8B0000;
+    color: #FFFFFF;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    display: block;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #FFF8DC;
+    color: #8B0000;
+  }
+  
+  main {
+    padding-top: 100px;
+  }
+  
+  section {
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  
+  h1, h2, h3 {
+    font-weight: normal;
+    text-align: center;
+  }
+  
+  #about {
+    background-color: #FFE4C4;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  #products {
+    background-color: #FFF8DC;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  #contact {
+    background-color: #FFE4E1;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  footer {
+    background-color: #8B0000;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
